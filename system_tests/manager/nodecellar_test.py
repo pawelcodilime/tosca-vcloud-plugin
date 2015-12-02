@@ -31,9 +31,5 @@ class VcloudNodeCellarTest(nodecellar_test.NodecellarAppTest):
         }
 
     @property
-    def entrypoint_property_name(self):
-        return 'public_ip'
-
-    @property
     def expected_nodes_count(self):
         return 9
